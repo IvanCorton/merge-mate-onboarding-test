@@ -1,7 +1,7 @@
-export function increment(value: number): number {
-  return value + 2
+export function increment(value: number, step: number = 1): number {
+  return value + step
 }
 
-export function decrement(value: number): number {
-  return value - 2
+export function decrement(value: number, step: number = 1): number {
+  return value - step
 }
